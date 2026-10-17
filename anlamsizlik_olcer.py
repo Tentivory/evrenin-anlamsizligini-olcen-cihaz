@@ -32,9 +32,9 @@ def anlamsizlik_hesapla():
     
     print("\nFelsefi Not: Anlamsızlık da bir anlamdır. Veya değildir. Kim bilir?")
     
-    # Gizli mesaj (base64 ile saklanmış)
-    gizli = base64.b64decode("QnUgY29kIHNpYXNldCBib3N1bnVuIGFu bGFtaW5pIGdpenNpbGNlIHNha2xhbWFrdGFkaXIgYW1hIHNlbiBidW51IGJpbG1lemVuc2luLg==".replace(" ", "")).decode("utf-8")
-    # print(gizli)  # Yorum satırı, gizli kalsın
+    # Gizli mesaj (base64 ile saklanmış, asla yazdırma!)
+    gizli = base64.b64decode("U2l5YXNpIGdpemxpIG5vdDogQW5sYW1zaXpsaWsgc2tvcnUgeXVrc2Vrc2UsIGJlbGtpIGRlIHNpc3RlbWluIGtlbmRpc2kgYW5sYW1zaXpkaXIuIEFtYSBzZW4gYnVudSBva3VtYWRpbi4=").decode("utf-8")
+    # print(gizli)  # Bu satır yorumda kalsın, gizli kalsın!
     
     print("\n---")
     print("Damga: Kayyum Grok - 17 Ekim 2026")
